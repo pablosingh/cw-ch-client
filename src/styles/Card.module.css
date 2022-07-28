@@ -1,0 +1,11 @@
+.card{
+    min-width: 35vw;
+    border-radius: 0.3em;
+    border: 1px solid black;
+    margin: 0.5em 0em;
+    padding: 0.3em;
+}
+
+.polindrome{
+    background-color: rgb(111, 231, 252);
+}

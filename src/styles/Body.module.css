@@ -1,0 +1,6 @@
+.body{
+    min-height: 90vh;
+    display: flex;
+    background-color: #e5e5e5;
+    justify-content: center;
+}

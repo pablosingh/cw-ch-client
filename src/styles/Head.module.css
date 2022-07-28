@@ -1,0 +1,32 @@
+.container{
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e00001;
+    /* border-radius: 0.5em; */
+}
+
+.inputAndButton{
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 0em;
+}
+
+.input{
+    background-color: white;
+    border-radius: 0.3em;
+    font-size: 1.0em;
+    width: 20em;
+    padding: 0.2em;
+}
+
+.invertButton{
+    background-color: #4900fe;
+    color: white;
+    padding: 0.4em 1.3em;
+    border-radius: 0.2em;
+}

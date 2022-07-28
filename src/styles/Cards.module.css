@@ -1,0 +1,11 @@
+.cards{
+    display: flex;
+    min-width: 60vw;
+    background-color: #ffffff;
+    padding: 3em;
+    margin: 1.5em 0em ;
+}
+.labelResults{
+    margin: 0em 3em;
+    font-weight: bold;
+}
