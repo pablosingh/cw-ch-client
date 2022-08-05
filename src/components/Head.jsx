@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useDispatch} from "react-redux";
 import { sendText } from '../redux/actions';
-// import { Button, TextField } from "@material-ui/core";
 import style from '../styles/Head.module.css';
 
 export const Head = () => {
@@ -16,6 +15,24 @@ export const Head = () => {
         setToInvert('');
     };
     return (
+        // <form className="" action='POST'>
+        //     <div class="d-flex justify-content-center">
+        //         <div className="">
+        //             <input type="toInvertText" 
+        //                     placeholder="Insert Text" 
+        //                     onChange={changing}
+        //                     value={toInvert}
+        //                     // className={}
+        //             />
+        //         </div>
+        //         <div className="">
+        //             <button onClick={ submiting } 
+        //                 // className={style.invertButton}
+        //                 >Send
+        //             </button>
+        //         </div>
+        //     </div>
+        // </form>
         <form className={style.container} action='POST'>
             <div className={style.inputAndButton}>
                 <input type="toInvertText" 
@@ -24,19 +41,6 @@ export const Head = () => {
                             value={toInvert}
                             className={style.input}
                     />
-                {/* <TextField 
-                    label="Insert Text" 
-                    variant="filled"
-                    color="primary"
-                    size="small"
-                    onChange={changing}
-                    className={style.input}></TextField> */}
-                {/* <Button 
-                    color='primary' 
-                    variant='contained'
-                    size="small"
-                    onClick={ submiting }
-                    >Send</Button> */}
                 <button onClick={ submiting } className={style.invertButton}
                     >Send</button>
             </div>
